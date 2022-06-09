@@ -5,7 +5,7 @@ const ButtonSharp = (props) => {
     <button
       className={`${styles.buttonSharp} ${
         props.className ? props.className : ""
-      }`}
+      }`} {...props}
     >
       {props.children}
     </button>
