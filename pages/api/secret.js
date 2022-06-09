@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'loremCorp {s3cret_ap0_en4_p0!nts}' })
+  res.status(200).json({ name: 'loremCorp {fl3g_f0r_t3s!ing}' })
 }
