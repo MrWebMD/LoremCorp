@@ -1,0 +1,83 @@
+.nav {
+  background-color: #2851e3;
+  color: white;
+  position:fixed;
+  z-index:20;
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: height 0.5s ease-in-out 0s;
+}
+.navMobile {
+  height:3rem;
+  overflow:hidden;
+  padding-top:0.5rem;
+}
+.navMobileOpen {
+  height: 100vh;
+}
+.navSpacer {
+  height: 1rem;
+  width:100%;
+}
+.navContainer {
+  display:flex;
+  flex-direction: row;
+  /* align-items:center; */
+  justify-content: space-between;
+  padding:0px 3rem;
+}
+.navContainerMobile {
+  flex-direction: column;
+  padding: 0px 0.5rem;
+}
+.navSection {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position:relative;
+}
+.navList {
+  list-style-type:none;
+  padding:0;
+}
+.navHamburger {
+  flex: none;
+  width: 1.5rem;
+  position:absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%)
+}
+.navListMobile {
+  flex-direction: column;
+}
+.navItem {
+  text-decoration: none;
+  padding:0.6rem 1.1rem;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
+.navItemMobile {
+  padding: 20rem
+}
+.navItem:hover {
+  opacity: 1;
+}
+.navLang {
+  margin:10px;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  padding:0rem 1rem;
+}
+.navLangText {
+  margin:0px 0.5rem;
+}

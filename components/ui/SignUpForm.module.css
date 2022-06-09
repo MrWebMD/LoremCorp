@@ -1,0 +1,40 @@
+.formCard {
+  background-color: var(--theme-primary);
+  border-radius: 2rem;
+  padding: 0.1rem 2rem;
+  /* width:100%; */
+  color: white;
+  max-width: var(--layout-max-width);
+  margin: 2rem auto;
+}
+.submitButton {
+  color:white;
+  background-color:rgb(23, 22, 22);
+  flex-grow:1;
+  /* height:100%; */
+  margin:0px 0px 0px 0.5rem;
+}
+.formCardMobile {
+  border-radius:0px;
+  /* background: none; */
+  /* color: black; */
+  padding: 0.1rem 0rem;
+  margin:0rem;
+}
+.formImageMobile {
+  display: none;
+}
+.formInputs {
+  display:flex;
+  flex-direction: row;
+  margin-top:2rem;
+}
+.formRow {
+  justify-content: center;
+}
+.formContainer {
+  padding: 0rem 3rem;
+}
+.formContainerMobile {
+  padding: 0rem 1rem;
+}

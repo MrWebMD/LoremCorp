@@ -1,0 +1,15 @@
+.buttonSharp {
+  color: white;
+  padding: 1rem 2rem;
+  font-family: 'Manrope', sans-serif;
+  font-size:1rem;
+  background-color:var(--theme-primary);
+  border-width:0px;
+  /* margin:1rem; */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: filter 0.2s ease-in-out 0s;
+}
+.buttonSharp:hover {
+  cursor:pointer;
+  filter: brightness(130%);
+}

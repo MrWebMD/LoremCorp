@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--theme-primary);
+  color:white;
+  display: flow-root;
+  padding:0rem 1rem;
+}
+.footerList {
+  list-style: none;
+  padding:1rem 0rem;
+  margin:0;
+}
+.footerSectionMobile {
+  display:block;
+  width:50%;
+  float:left;
+  min-height: 20rem;
+}
+.footerRow {
+  /* margin: 0rem auto; */
+}
+.footerRowMobile {
+  display:flow-root;
+}
+.footerList li {
+  padding: 0.5rem 0rem;
+  transition: 0.5s ease-in-out 0s;
+  margin:0;
+  text-decoration: none;
+}
+.footerList li:not(:first-child) {
+  opacity:0.6;
+}
+.footerList li:not(:first-child):hover {
+  opacity:1;
+  /* cursor:pointer; */
+}
+.footerSection {
+  flex-basis:25%;
+}
+.footerLogo {
+  width:10rem;
+}
